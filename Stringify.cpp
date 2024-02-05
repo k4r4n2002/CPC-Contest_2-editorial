@@ -29,9 +29,9 @@ bool subsequence(string& s1, string& s2)
             j++;
         i++;
     }
-    /*If i reaches end of s1,that mean we found all
-    characters of s1 in s2,
-    so s1 is subsequence of s2, else not*/
+    /*If j reaches end of s2,that mean we found all
+    characters of s2 in s1,
+    so s2 is subsequence of s1, else not*/
     return j == m;
 }
 
